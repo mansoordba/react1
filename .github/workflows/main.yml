@@ -28,7 +28,7 @@ jobs:
     - name: GitHub Action for npm in Alpine Linux
       uses: shinnn/actions-npm-alpine@1.0.0
     - name: Creating build
-      run: npm run build
+      run: npm install -g yarn 
       
     - name: installing surge
       run: npm install -g surge
